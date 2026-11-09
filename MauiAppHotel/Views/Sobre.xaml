@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre">
+    <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+        <Label Text="App Hotel" 
+               FontSize="28" 
+               FontAttributes="Bold" 
+               HorizontalOptions="Center" />
+
+        <Label Text="Desenvolvi esse aplicativo  para gerenciar reservas de hotel de forma prática." 
+               FontSize="16" 
+               HorizontalOptions="Center" 
+               TextColor="Gray" 
+               HorizontalTextAlignment="Center" />
+
+        
+        <Label Text="Desenvolvido por: Lucas Lopes Moreira" 
+               FontSize="16" 
+               FontAttributes="Italic" 
+               HorizontalOptions="Center" />
+
+        <Label Text="Ano: 2026" 
+               FontSize="16" 
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
